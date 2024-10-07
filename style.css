@@ -1,0 +1,133 @@
+body{
+    
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: rgb(251, 251, 5,0.8);
+    color:black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px ;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 500;
+    border-radius: 10px;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+.container-b{
+    padding: 16px;
+  }
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  hr.new1 {
+    border-top: 1px solid lightgray;
+    width: 200px;
+  }
+  .row1{
+    display: flex;
+  }
+  img{
+    max-width: 60%;
+    max-height: 60%;
+    padding: 20px;
+  }
+  .r1{
+    border: 1px solid lightgray;
+    margin: 10px;
+  }
+  .r2{
+    border: 1px solid lightgray;
+    margin: 10px;
+  }
+  .r3{
+    border: 1px solid lightgray;
+    margin: 10px;
+  }
+  .row2{display: flex;}
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+  }
+  .section-a{
+    width: 5000px;
+    background-color:  rgb(251, 251, 5,0.8);
+    height: 100%;
+    position: relative;
+   
+  }
+  .section-b{
+    background-color:  white
+  }
+  nav{
+    padding: 0px 0px 500px 0px;
+    display: flex;
+    margin: 30px;
+    font-weight: 900;
+   
+}
+.a1{
+    padding: 0px 50px 50px 50px;
+    
+}
+article{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-30%);
+    left: 15%;
+  
+}
+.p2{
+   font-size: 50px;
+   font-weight:1000;
+}
+.button2{
+    background-color: rgb(251, 251, 5,0.8);
+    color:black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid black ;
+    cursor: pointer;
+    width: 50%;
+    font-weight: 500;
+    border-radius: 10px;
+}
+  @media (max-width:768px) {
+    .container{
+        flex-direction: column;
+       
+
+    }
+    
+    .section-a{
+        display: none;
+
+    }
+    .section-b{
+        width: 100%;
+    }
+
+
+  
+    }
+  
